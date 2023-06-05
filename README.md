@@ -12,7 +12,9 @@
   
   
 ## 개발
+### 개발 요구 사항
 
+[개발_요구_사항.pdf](https://github.com/jmjgirl/TodoApp/files/11651794/_._.pdf)
 
 
     
