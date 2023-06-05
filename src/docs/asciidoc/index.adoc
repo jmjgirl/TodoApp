@@ -1,0 +1,112 @@
+= Todo 애플리케이션
+:sectnums:
+:toc: left
+:toclevels: 4
+:toc-title: 목차
+:source-highlighter: prettify
+
+Chung min ji <jmjcap123@gmail.com>
+
+v1.0.0, 2023.06.05
+
+***
+API 문서 개요
+
+  이 문서는 Solo project Todo 애플리케이션의 문서이다.
+
+***
+== TodoController
+=== Todo(할일) 등록
+.http-request
+include::{snippets}/post-todo/http-request.adoc[]
+
+.http-response
+include::{snippets}/post-todo/http-response.adoc[]
+
+.request-fields
+include::{snippets}/post-todo/request-fields.adoc[]
+
+.response-header
+include::{snippets}/post-todo/response-headers.adoc[]
+
+
+=== Todo(할일) 정보 수정
+.http-request
+include::{snippets}/patch-todo/http-request.adoc[]
+
+.http-response
+include::{snippets}/patch-todo/http-response.adoc[]
+
+.path-parameters
+include::{snippets}/patch-todo/path-parameters.adoc[]
+
+.request-fields
+include::{snippets}/patch-todo/request-fields.adoc[]
+
+.response-fields
+include::{snippets}/patch-todo/response-fields.adoc[]
+
+
+=== 특정 Todo(할일) 조회
+.http-request
+include::{snippets}/get-todo/http-request.adoc[]
+
+.http-response
+include::{snippets}/get-todo/http-response.adoc[]
+
+.path-parameters
+include::{snippets}/get-todo/path-parameters.adoc[]
+
+.request-body
+include::{snippets}/get-todo/request-body.adoc[]
+
+.response-body
+include::{snippets}/get-todo/response-body.adoc[]
+
+.response-fields
+include::{snippets}/get-todo/response-fields.adoc[]
+
+
+=== 전체 Todo(할일) 조회
+.http-request
+include::{snippets}/get-todos/http-request.adoc[]
+
+.http-response
+include::{snippets}/get-todos/http-response.adoc[]
+
+.request-body
+include::{snippets}/get-todos/request-body.adoc[]
+
+.response-fields
+include::{snippets}/get-todos/response-fields.adoc[]
+
+
+=== 특정 Todo(할일) 삭제
+.http-request
+include::{snippets}/get-todos/http-request.adoc[]
+
+.http-response
+include::{snippets}/delete-todo/http-response.adoc[]
+
+.path-parameters
+include::{snippets}/get-todo/path-parameters.adoc[]
+
+.request-body
+include::{snippets}/get-todo/request-body.adoc[]
+
+.response-body
+include::{snippets}/get-todo/response-body.adoc[]
+
+
+=== 전체 Todo(할일) 삭제
+.http-request
+include::{snippets}/delete-todos/http-request.adoc[]
+
+.http-response
+include::{snippets}/delete-todos/http-response.adoc[]
+
+.request-body
+include::{snippets}/delete-todos/request-body.adoc[]
+
+.response-body
+include::{snippets}/delete-todos/response-body.adoc[]
