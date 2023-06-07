@@ -16,10 +16,20 @@
 
 [개발_요구_사항.pdf](https://github.com/jmjgirl/TodoApp/files/11651794/_._.pdf)  
 
+
+
   
-### 개발 환경  
+### ⚙ 개발 환경  
+Language : Java  
+Java : 11  
+JDK : OpenJDK 11  
+JRE : 11.0.19  
 
 
+
+DB : H2 DB   
+웹 애플리케이션 서버 : Tomcat 9   
+Ngrok
 
 ## 🖥 결과
 
@@ -27,6 +37,11 @@
 
 
 postman을 이용하여 Todo CRUD를 확인할 수 있다.
+
+
+### 📃 API 문서
+
+[Todo API 문서.pdf](https://github.com/jmjgirl/TodoApp/files/11671767/Todo.API.pdf)
 
     
     
