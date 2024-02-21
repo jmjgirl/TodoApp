@@ -1,4 +1,4 @@
-# Solo projcet : To-do App
+# Solo project : To-do App
 단순한 CRUD 기능을 기본으로 구성  
 
 
